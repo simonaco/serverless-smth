@@ -3,7 +3,8 @@
   "proxies": {
     "test": {
       "matchCondition": {
-        "route": "/api/smth1"
+        "route": "/api/smth1",
+        "methods": ["GET"]
       },
       "backendUri": "https://sicotin-review1.azurewebsites.net/api/Review"
     }
