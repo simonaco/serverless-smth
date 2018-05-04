@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.005" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-05-04T17:07:49" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Scheduler function" timestamp="2018-05-04T17:07:49" tests="3" file="/Users/simonacotin/workspace/build/serverless/Tests/scheduler.spec.js" failures="0" time="0.005">
+    <testcase name="Scheduler function should pass query name to queue bindings" time="0.005" classname="should pass query name to queue bindings">
+    </testcase>
+    <testcase name="Scheduler function should be ok if the query name has been passed" time="0" classname="should be ok if the query name has been passed">
+    </testcase>
+    <testcase name="Scheduler function should not be ok if the query name isnt supplied" time="0" classname="should not be ok if the query name isnt supplied">
+    </testcase>
+  </testsuite>
+</testsuites>
